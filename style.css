@@ -1,0 +1,33 @@
+ body, html
+ {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aquamarine;
+ }
+ .container
+ {
+text-align: center;
+ }
+ .option
+ {
+display: block;
+margin: 10px 0;
+padding: 15px 30px;
+font-size: 27px;
+color: white;
+border-radius: 5px;
+opacity: 0.9;
+transition: transform 0.3 ease, background-color 0.3 ease
+ }
+ .option:hover
+ {
+transform: translateY(-5px);
+ }
+ *{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
